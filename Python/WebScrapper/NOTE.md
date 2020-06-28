@@ -13,3 +13,7 @@ string, number, float, bool, none, list, tuple, dictionary
 ## Check a built in function
 ## How to make funcion
 def say_hello(who):
+## How to make loop
+for in
+## How to make condition
+if, elif, else

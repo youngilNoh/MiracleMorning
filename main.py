@@ -1,5 +1,7 @@
-def say_hello(name, age):
-  return f"Hello {name} you are {age} years old"
+days = {"Mon", "Tue", "Wed", "Thu", "Fri"}
 
-hello = say_hello(name="charlie", age="24")
-print(hello)
+for day in days:
+  if day == "Wed":
+    break
+  else:
+    print(day)
