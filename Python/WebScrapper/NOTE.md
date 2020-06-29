@@ -25,3 +25,6 @@ from (module name) import (function) as (custom name)
 1. 페이지 이동
 2. 페이지 개수 구분
 3. 타이틀 확인
+
+# Install packages
+requests, beautifulsoup4
