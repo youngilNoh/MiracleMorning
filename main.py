@@ -1,8 +1,5 @@
-days = {"Mon", "Tue", "Wed", "Thu", "Fri"}
+import requests
 
-for day in days:
-  # 강의에선 day is "Wed"로 나오는데, 오류가 생겼다.
-  if day == "Wed":
-    break
-  else:
-    print(day)
+indeed_result = requests.get("https://www.indeed.com/jobs?q=python&limit=40")
+
+print(indeed_result.text)
