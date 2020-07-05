@@ -1,8 +1,17 @@
-from indeed import get_jobs as get_indeed_jobs
-from so import get_jobs as get_so_jobs
-from save import save_to_file
+class Car():
+  wheels = 4
+  doors = 4
+  windows = 4
+  seats = 4
 
-indeed_jobs = get_indeed_jobs()
-so_jobs = get_so_jobs()
-jobs = so_jobs + indeed_jobs
-save_to_file(jobs)
+
+porche = Car()
+porche.color = "Red"
+
+ferrari = Car()
+ferrari.color = "Yellow"
+
+mini = Car()
+mini.color = "white"
+
+print(porche.color, ferrari.color)

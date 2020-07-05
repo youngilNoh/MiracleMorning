@@ -28,3 +28,14 @@ from (module name) import (function) as (custom name)
 
 # Install packages
 requests, beautifulsoup4
+
+# *args, **kwargs
+## args
+args: 무한하게 넣을 수 있는 parameter
+### ex
+def plus(*args) - plus(1,1,1,1,1,1)
+
+## kwargs
+kwargs: 무한하게 넣을 수 있는 키워드 parameter
+### ex
+def plus(**kwargs) - plus(hello=True, bye=False, wow="good")
