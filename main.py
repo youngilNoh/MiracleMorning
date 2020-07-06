@@ -1,17 +1,13 @@
-class Car():
-  wheels = 4
-  doors = 4
-  windows = 4
-  seats = 4
+from flask import Flask
 
+app = Flask("SuperScrapper")
 
-porche = Car()
-porche.color = "Red"
+@app.route("/")
+def home():
+  return "Hello! welcome to mi casa!"
 
-ferrari = Car()
-ferrari.color = "Yellow"
+@app.route("/contact")
+def potato():
+  return "Contact me!"  
 
-mini = Car()
-mini.color = "white"
-
-print(porche.color, ferrari.color)
+app.run(host="0.0.0.0")
