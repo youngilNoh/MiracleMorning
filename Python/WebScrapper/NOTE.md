@@ -39,3 +39,7 @@ def plus(*args) - plus(1,1,1,1,1,1)
 kwargs: 무한하게 넣을 수 있는 키워드 parameter
 ### ex
 def plus(**kwargs) - plus(hello=True, bye=False, wow="good")
+
+# Extensions
+## Flask
+Web application framework
