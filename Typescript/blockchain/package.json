@@ -1,0 +1,15 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "typerscript": "^0.2.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
