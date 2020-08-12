@@ -5,3 +5,4 @@
 
 ## 공부 내용
 1. Python으로 웹 스크래퍼 만들기 - Nomardcoders.co
+2. Typescript로 블록체인 만들기 - Nomardcoders.co
