@@ -6,4 +6,5 @@
 ## 공부 내용
 1. Python으로 웹 스크래퍼 만들기 - Nomardcoders.co
 2. Typescript로 블록체인 만들기 - Nomardcoders.co
-3. ReactJS로 영화 웹 서비스 만들기 - Nomardcodes.co
+3. ReactJS로 영화 웹 서비스 만들기 - Nomardcoders.co
+4. CSS Layout 마스터 클래스 - Nomardcoders.co
