@@ -1,16 +1,20 @@
 .wrapper {
     display: flex;
-    height: 100vh;
     flex-direction: column;
     /* Main Axis */
     justify-content: space-around;
-    /* Cross Axis */
-    align-items: space-around;
 }
 
 .box {
-    width: 200px;
-    height: 200px;
+    flex-basis: 300px;
     background-color: peru;
-    color: white
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:nth-child(2n) {
+    background: #000;
 }
