@@ -1,20 +1,32 @@
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    /* Main Axis */
-    justify-content: space-around;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
 }
 
-.box {
-    flex-basis: 300px;
-    background-color: peru;
-    color: white;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header {
+    background-color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
-.box:nth-child(2n) {
-    background: #000;
+.content {
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.nav {
+    background-color: aqua;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.footer {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
