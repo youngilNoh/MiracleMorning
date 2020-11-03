@@ -1,0 +1,15 @@
+@mixin responsive {
+    $gridSize: (100vw / 4);
+
+    @if calc(100vw / 4)>calc(100vh / 3) {
+        $gridSize: (100vw / 4);
+        grid-template-columns: repeat(4, $gridSize);
+        grid-template-rows: repeat(3, $gridSize);
+    }
+
+    @else {
+        $gridSize: (100vh / 3);
+        grid-template-columns: repeat(4, $gridSize);
+        grid-template-rows: repeat(3, $gridSize);
+    }
+}
