@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MiracleMorning/ReactJS/movie_app_2019/static/css/main.543f706f.chunk.css",
+    "main.js": "/MiracleMorning/ReactJS/movie_app_2019/static/js/main.1ffea82e.chunk.js",
+    "main.js.map": "/MiracleMorning/ReactJS/movie_app_2019/static/js/main.1ffea82e.chunk.js.map",
+    "runtime-main.js": "/MiracleMorning/ReactJS/movie_app_2019/static/js/runtime-main.a7c81845.js",
+    "runtime-main.js.map": "/MiracleMorning/ReactJS/movie_app_2019/static/js/runtime-main.a7c81845.js.map",
+    "static/js/2.00a09d16.chunk.js": "/MiracleMorning/ReactJS/movie_app_2019/static/js/2.00a09d16.chunk.js",
+    "static/js/2.00a09d16.chunk.js.map": "/MiracleMorning/ReactJS/movie_app_2019/static/js/2.00a09d16.chunk.js.map",
+    "index.html": "/MiracleMorning/ReactJS/movie_app_2019/index.html",
+    "precache-manifest.7479643a25be536218e7a0d0ed5edd92.js": "/MiracleMorning/ReactJS/movie_app_2019/precache-manifest.7479643a25be536218e7a0d0ed5edd92.js",
+    "service-worker.js": "/MiracleMorning/ReactJS/movie_app_2019/service-worker.js",
+    "static/css/main.543f706f.chunk.css.map": "/MiracleMorning/ReactJS/movie_app_2019/static/css/main.543f706f.chunk.css.map",
+    "static/js/2.00a09d16.chunk.js.LICENSE.txt": "/MiracleMorning/ReactJS/movie_app_2019/static/js/2.00a09d16.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7c81845.js",
+    "static/js/2.00a09d16.chunk.js",
+    "static/css/main.543f706f.chunk.css",
+    "static/js/main.1ffea82e.chunk.js"
+  ]
+}
