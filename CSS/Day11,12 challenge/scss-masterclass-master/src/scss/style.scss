@@ -1,0 +1,204 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: 60% 5% 35%;
+  height: 100%;
+
+  .grid {
+    height: 100%;
+    box-sizing: border-box;
+
+    &.orange {
+      padding: 5px;
+      background-color: #f67302;
+
+      .item__list {
+        overflow: scroll;
+        display: grid;
+        grid-auto-rows: 100px;
+
+
+        .item {
+          display: grid;
+          grid-template-columns: 30px calc(65% - 30px) 35%;
+          grid-template-rows: 50% 50%;
+          color: #f30b03;
+          box-sizing: border-box;
+          border: 2px solid #f30b03;
+          border-bottom: none;
+
+          &.white {
+            border: 2px solid #ffffff;
+
+            color: white;
+
+            p.rotate {
+              border-left: 2px solid #ffffff;
+            }
+
+            h1 {
+              border-right: 2px solid #ffffff;
+            }
+
+            p.position {
+              border-bottom: 2px solid #ffffff;
+            }
+
+            div {
+              p {
+                background-color: #ffffff;
+              }
+            }
+          }
+
+          &.white+.item {
+            border-top: none;
+          }
+
+          &:last-child {
+            border-bottom: 2px solid #f30b03;
+
+            &.white {
+              border-bottom: 2px solid #ffffff;
+            }
+          }
+
+          p.rotate {
+            grid-row: 1 / -1;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            font-size: 13px;
+            text-align: center;
+            box-sizing: border-box;
+            line-height: 30px;
+            border-left: 2px solid #f30b03;
+          }
+
+          h1 {
+            grid-row: 1 / -1;
+            padding-left: 10px;
+            line-height: 100px;
+            font-size: 80px;
+            box-sizing: border-box;
+            border-right: 2px solid #f30b03;
+          }
+
+          p.position {
+            text-align: center;
+            line-height: 50px;
+            border-bottom: 2px solid #f30b03;
+          }
+
+          div {
+            text-align: center;
+
+
+            p {
+              width: 80%;
+              height: 30px;
+              display: inline-block;
+              margin-top: 10px;
+              line-height: 30px;
+              border-radius: 20px;
+              background-color: #f30b03;
+              color: #f67302;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    &.two {
+      display: grid;
+      grid-template-rows: 50% 50%;
+      font-size: 25px;
+
+      div {
+        position: relative;
+
+
+        .rotate {
+          writing-mode: vertical-lr;
+          margin: 0 auto;
+
+          &.transform {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      .pink {
+        background-color: fuchsia;
+
+        p {
+          margin-top: 10px;
+        }
+      }
+
+      .blue {
+        display: flex;
+        background-color: blue;
+        align-items: flex-end;
+
+        p {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &.red {
+      background-color: #f30b03;
+      padding: 10px;
+      overflow: scroll;
+
+      .menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        button {
+          appearance: none;
+          background: rgba($color: #000000, $alpha: 0);
+          border: none;
+          font-size: 20px;
+          text-align: left;
+          padding-left: 10px;
+        }
+
+        span {
+          font-size: 20px;
+        }
+      }
+
+      .list {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 120px;
+        grid-gap: 10px;
+
+        div {
+          border-top: 1px solid #000;
+
+          h2 {
+            padding-top: 15px;
+            font-size: 20px;
+            margin-bottom: 5px;
+          }
+
+          p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
